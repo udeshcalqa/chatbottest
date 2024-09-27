@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": false
+  },
+  "include": ["src/tests/**/*.ts", "src/pages/**/*.ts"],
+
+  "exclude": ["node_modules", "dist"]
+}

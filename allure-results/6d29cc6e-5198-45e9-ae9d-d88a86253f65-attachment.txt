@@ -1,0 +1,1 @@
+Error: Chatbot responded with an error message after sending the greeting.

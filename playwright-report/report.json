@@ -1,0 +1,153 @@
+{
+  "config": {
+    "configFile": "c:\\Users\\UdeshMarasinghe\\chatbot-test\\playwright.config.ts",
+    "rootDir": "c:/Users/UdeshMarasinghe/chatbot-test/src/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "c:/Users/UdeshMarasinghe/chatbot-test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "c:/Users/UdeshMarasinghe/chatbot-test/src/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.47.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "chatbotTest.spec.ts",
+      "file": "chatbotTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Chatbot Response Test",
+          "file": "chatbotTest.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify chatbot responds without error message",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 12787,
+                      "error": {
+                        "message": "Error: The chatbot returned an error message: \"I'm sorry, something went wrong. Please try again in a little while.\"",
+                        "stack": "Error: The chatbot returned an error message: \"I'm sorry, something went wrong. Please try again in a little while.\"\n    at c:\\Users\\UdeshMarasinghe\\chatbot-test\\src\\tests\\chatbotTest.spec.ts:55:13",
+                        "location": {
+                          "file": "c:\\Users\\UdeshMarasinghe\\chatbot-test\\src\\tests\\chatbotTest.spec.ts",
+                          "column": 13,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m     \u001b[36mif\u001b[39m (responseTextGreeting\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mincludes(\u001b[32m\"I'm sorry, something went wrong. Please try again in a little while.\"\u001b[39m)) {\n \u001b[90m 54 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Error: Chatbot responded with an error message after sending the greeting.\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'The chatbot returned an error message: \"I\\'m sorry, something went wrong. Please try again in a little while.\"'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     }\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "c:\\Users\\UdeshMarasinghe\\chatbot-test\\src\\tests\\chatbotTest.spec.ts",
+                            "column": 13,
+                            "line": 55
+                          },
+                          "message": "Error: The chatbot returned an error message: \"I'm sorry, something went wrong. Please try again in a little while.\"\n\n\u001b[0m \u001b[90m 53 |\u001b[39m     \u001b[36mif\u001b[39m (responseTextGreeting\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mincludes(\u001b[32m\"I'm sorry, something went wrong. Please try again in a little while.\"\u001b[39m)) {\n \u001b[90m 54 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Error: Chatbot responded with an error message after sending the greeting.\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'The chatbot returned an error message: \"I\\'m sorry, something went wrong. Please try again in a little while.\"'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     }\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m\u001b[0m\n\n\u001b[2m    at c:\\Users\\UdeshMarasinghe\\chatbot-test\\src\\tests\\chatbotTest.spec.ts:55:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Successfully navigated to the base URL.\n"
+                        },
+                        {
+                          "text": "Test Greeting Message: Hey\n"
+                        },
+                        {
+                          "text": "Chatbot Response: I'm sorry, something went wrong. Please try again in a little while.\n"
+                        },
+                        {
+                          "text": "Response Time for the Greeting Message: 7226ms\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "Error: Chatbot responded with an error message after sending the greeting.\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:54:00.055Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "c:\\Users\\UdeshMarasinghe\\chatbot-test\\src\\tests\\chatbotTest.spec.ts",
+                        "column": 13,
+                        "line": 55
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a883cc51653aaa58995e-e7d77fcfb329249e258b",
+              "file": "chatbotTest.spec.ts",
+              "line": 21,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-09-26T10:53:58.982Z",
+    "duration": 14123.91399999999,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

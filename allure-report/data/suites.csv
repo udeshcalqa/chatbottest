@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2655","Upload Product CSV File","chromium","Fri Sep 27 12:10:04 IST 2024","failed","Fri Sep 27 12:10:07 IST 2024","Admin Product Upload Tests","productUploadTest.spec.ts","",""
+"","2639","Delete Multiple Products","chromium","Fri Sep 27 12:10:04 IST 2024","failed","Fri Sep 27 12:10:07 IST 2024","Admin Product Upload Tests","productUploadTest.spec.ts","",""
+"","2647","Verify chatbot responds without error message","chromium","Fri Sep 27 12:10:04 IST 2024","failed","Fri Sep 27 12:10:06 IST 2024","Chatbot Response Test","chatbotTest.spec.ts","",""
+"","2669","Verify Product Embeddings","chromium","Fri Sep 27 12:10:04 IST 2024","failed","Fri Sep 27 12:10:07 IST 2024","Admin Product Upload Tests","productUploadTest.spec.ts","",""
+"","2652","Delete Single Product","chromium","Fri Sep 27 12:10:04 IST 2024","failed","Fri Sep 27 12:10:07 IST 2024","Admin Product Upload Tests","productUploadTest.spec.ts","",""

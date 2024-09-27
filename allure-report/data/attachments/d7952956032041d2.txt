@@ -1,0 +1,4 @@
+Failed to navigate to the base URL: Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://cms-qa.olssonparts.calcey.com/
+Call log:
+  - navigating to "https://cms-qa.olssonparts.calcey.com/", waiting until "load"
+

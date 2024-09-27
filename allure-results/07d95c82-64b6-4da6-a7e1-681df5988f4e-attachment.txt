@@ -1,0 +1,4 @@
+Successfully navigated to the base URL.
+Test Greeting Message: Hey
+Chatbot Response: I'm sorry, something went wrong. Please try again in a little while.
+Response Time for the Greeting Message: 3843ms

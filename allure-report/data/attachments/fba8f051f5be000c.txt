@@ -1,0 +1,4 @@
+Successfully navigated to the base URL.
+Test Greeting Message: Hi
+Chatbot Response: Hello! How can I assist you today with Olsson Parts, tractors, or construction vehicles?
+Response Time for the Greeting Message: 1707ms
